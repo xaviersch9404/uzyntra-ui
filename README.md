@@ -1,7 +1,7 @@
 # 🛡️ UZYNTRA UI — Operator Control Console
 
 <p align="center">
-  <img src="public/uzyntra-logo-mark.png" alt="UZYNTRA Logo" width="120"/>
+  <img src="public/UZYNTRA-logo-mark.png" alt="UZYNTRA Logo" width="120"/>
 </p>
 
 <p align="center">
