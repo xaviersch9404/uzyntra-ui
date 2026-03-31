@@ -54,6 +54,21 @@ https://github.com/UsamaMatrix/uzyntra-api-firewall
 
 ---
 
+## 🏗️ Platform Architecture
+```
+Client → UZYNTRA Firewall (Rust)
+              ↓
+       Detection Engine
+              ↓
+       Mitigation System
+              ↓
+         Admin API
+              ↓
+        UZYNTRA UI (Next.js)
+```
+
+---
+
 ## ✨ Features
 
 - 📊 **Dashboard**
