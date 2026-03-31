@@ -97,7 +97,23 @@ Client → UZYNTRA Firewall (Rust)
 
 ## 📸 Screenshots
 
-(keep your screenshots section as-is)
+### 🏠 Dashboard
+![Dashboard](docs/screenshots/01-dashboard.png)
+
+### 🔍 Events Explorer
+![Events](docs/screenshots/02-events.png)
+
+### 🛡️ Mitigations
+![Mitigations](docs/screenshots/03-mitigations.png)
+
+### 🧠 Reputation
+![Reputation](docs/screenshots/04-reputation.png)
+
+### 📜 Audit Trail
+![Audits](docs/screenshots/05-audits.png)
+
+### ⚙️ Policy Management
+![Policy](docs/screenshots/06-policy.png)
 
 ---
 
