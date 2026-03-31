@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+UZYNTRA UI is the operator dashboard for the UZYNTRA Rust API security gateway. It provides a professional control plane for monitoring security events, reviewing audit history, managing active mitigations, inspecting source reputation, and editing live policy settings.
 
-## Getting Started
+## Features
 
-First, run the development server:
+- Dashboard with live operator metrics
+- Events explorer with filtering and detail inspection
+- Active mitigations management
+- Source reputation review and reset actions
+- Audit trail viewer
+- Policy management for:
+  - global rule modes
+  - route overrides
+  - route rate-limit overrides
+- UZYNTRA product branding and control console layout
+
+## Stack
+
+- Next.js App Router
+- React
+- Tailwind CSS
+- Browser-based admin API integration with the Rust backend
+
+## Backend requirement
+
+The Rust admin API must be running on:
+
+`127.0.0.1:9090`
+
+The current UI expects the admin token:
+
+`dev-admin-token-1`
+
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+````
+
+Then open:
+
+`http://localhost:3000`
+
+## Key Pages
+
+* `/` Dashboard
+* `/events` Events Explorer
+* `/mitigations` Mitigations
+* `/reputation` Reputation
+* `/audits` Audit Trail
+* `/policy` Policy Management
+
+## Project Structure
+
+```text
+src/
+ ├── app/
+ │    ├── page.js
+ │    ├── events/page.js
+ │    ├── mitigations/page.js
+ │    ├── reputation/page.js
+ │    ├── audits/page.js
+ │    ├── policy/page.js
+ │    └── layout.js
+ │
+ ├── components/
+ │    ├── Sidebar.js
+ │    ├── Topbar.js
+ │    ├── PageHeader.js
+ │    ├── MetricCard.js
+ │    ├── SectionCard.js
+ │    ├── SimpleTable.js
+ │    ├── Badge.js
+ │    └── EmptyState.js
+ │
+ └── lib/
+      ├── api.js
+      └── format.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Notes
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This UI is designed to work with the UZYNTRA Rust API Firewall backend and is intended as the administrative threat control console for the platform.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Roadmap
 
-## Learn More
+* confirmation modals
+* richer event analytics
+* charts and trend views
+* advanced policy UX
+* auth hardening
+* SaaS-ready tenant controls
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
